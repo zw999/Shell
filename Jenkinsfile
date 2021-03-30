@@ -1,11 +1,11 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
         sh '''ls /
 pwd
-w'''
+who'''
       }
     }
 
